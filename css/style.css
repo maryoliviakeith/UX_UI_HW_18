@@ -1,0 +1,102 @@
+.inline-block {
+    display: inline-block;
+    vertical-align:top;
+}
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+    background-color: #000000;
+    height: 10px;
+    width: 100%;
+}
+nav {
+    width: 100%;
+    padding: 1%;
+    background-color: #000000;
+    text-align: right;
+    color: #ffffff;
+}
+ul {
+    width: 50%;
+    display: inline-flex;
+    vertical-align:top;
+    justify-content: flex-end;
+}
+li {
+    padding-inline: 30px;
+    color: #ffffff;
+    hover: #be5555;
+    font-family: 'Montserrat', sans-serif;
+}
+li:hover {
+    color: #be5555;
+}
+.contact {
+    padding-right: 40px;
+}
+.heroimg {
+    height: 600px;
+    padding: 25px;
+}
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+footer {
+    background-color: #000000;
+    margin-top: 275px;
+    display: flex;
+}
+.brand {
+    float: left;
+    height: 50px;
+    vertical-align: top;
+    padding-left: 20px;
+}
+.headshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+}
+.footer {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+}
+.content {
+    float: center;
+    text-align: center;
+    width: 65%;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+p {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+button {
+    border-radius: 50%;
+    border: none;
+    background-color: #000000;
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 32px;
+    font-family: 'Karla', sans-serif;
+    margin-top: 15px;
+}
+button:hover {
+    background-color: #be5555;
+}
+a:hover {
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+    color: #be5555;
+}
