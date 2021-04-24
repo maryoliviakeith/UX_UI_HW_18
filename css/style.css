@@ -26,10 +26,10 @@ ul {
 li {
     padding-inline: 30px;
     color: #ffffff;
-    hover: #be5555;
     font-family: 'Montserrat', sans-serif;
 }
 li:hover {
+    text-decoration: underline;
     color: #be5555;
 }
 .contact {
@@ -93,10 +93,96 @@ button {
 button:hover {
     background-color: #be5555;
 }
-a:hover {
-    text-decoration: underline;
+.content a {
+    text-decoration: none;
+    color: #be5555;
 }
 a {
     text-decoration: none;
+    color: #ffffff;
+}
+a:hover {
     color: #be5555;
+    text-decoration: underline;
+}
+.active a {
+    color: #be5555;
+    text-decoration: none;
+}
+.flexcontainer {
+    display: flex;
+    flex-direction: row;
+}
+.flexcontainer div {
+    width: 33%;
+    padding-left: 45px;
+    padding-right: 45px;
+    text-align: center;
+}
+.flexcontainer img {
+    height: 250px;
+    width: 250px;
+}
+.workgrid {
+    display: flex;
+    float: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.workgrid img {
+    width:250px;
+    height: 250px;
+    align-self: center;  
+}
+.madeleine {
+    text-align: center;
+    width: 33%;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.dol {
+    text-align: center;
+    width: 33%;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.spark {
+    text-align: center;
+    width: 33%;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+h4 {
+    font-family: 'Montserrat';
+    font-size: 24px;
+}
+h3 {
+    font-family: 'Montserrat';
+    font-size: 30px;
+}
+@media only screen and (max-width: 1000px) {
+    .workgrid {
+        flex-direction: column;
+    }
+    .madeleine {
+        width: 75%;
+        padding-bottom: 45px;
+    }
+    .dol {
+        width: 75%;
+        padding-bottom: 45px;
+        padding-top: 45px;
+    }
+    .spark {
+        width: 75%;
+        padding-top: 45px;
+    }
+    .flexcontainer {
+        flex-direction: column;
+    }
+    .flexcontainer div {
+        width: 75%;
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
 }
